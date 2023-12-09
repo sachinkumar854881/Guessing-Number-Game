@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing numbers</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- uses of goolge fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guess the Numbers</h1>
+        <p class="between">(between 1 and 20)</p>
+        <button class="btn again">Again!</button>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="guess"/>
+            <button class="btn check">Check!</button>
+        </section>
+        <section class="right">
+            <p class="message">start guessing....</p>
+            <p class="label-score">Score:<span class="score">20</span></p>
+            <p class="label-highscore">🥇HighScore:<span class="highscore">0</span></p>
+        </section>
+    </main>
+    <script src="javascript/gamescript.js"></script>
+</body>
+</html>
